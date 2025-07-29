@@ -39,4 +39,6 @@ Each part introduces new CS concepts in a fun, practical way — perfect for age
 - Data structures (lists, grids)
 - Functions/methods and code organization
 
+![robot-in-terminal.gif](./robot-in-terminal.gif)
+
 ### **Happy Coding! 🚀**
