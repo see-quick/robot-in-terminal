@@ -1,17 +1,62 @@
 import random
 
-# TODO: Copy your Robot class from Part I here (do not fill in solutions).
+# TODO: Copy your Robot class from Part I here.
+# class Robot:
+#     ...
 
-# TODO: Define a function to generate a grid of size N x N (as a 2D list)
-#       Each cell should be "." to start with
+# TODO: Write a function to generate a grid of size N x N (use a 2D list, each cell as ".")
+# def create_grid(size):
+#     ...
 
-# TODO: Use random functions to place trees ("T") and rocks ("R") at random positions on the grid
+# TODO: Write a function to randomly place trees ("T") and rocks ("R") on the grid
+# def place_random(grid, symbol, count, avoid=None):
+#     ...
 
-# TODO: Write a loop to repeatedly:
-#   1. Print the grid (mark robot with "X" at its position)
-#   2. Print the robot's position
-#   3. Get a move command from the user (up/down/left/right or quit)
-#   4. (No need for collision yet—that's Part III)
-#   5. Update the robot's position based on the command
+# TODO: Write a function to print the grid, marking the robot as "X" at its position
+# def print_grid(grid, robot_pos):
+#     ...
 
-# TODO: End the loop if the user types "quit"
+def main():
+    size = 5  # You can change the grid size
+    # TODO: Create a grid of the given size
+    # grid = ...
+
+    # TODO: Create a Robot at position (0, 0)
+    # robot = ...
+
+    # TODO: Avoid placing objects on the robot's starting spot (optional: use an "avoid" set)
+    # avoid = ...
+
+    # TODO: Place trees ("T") and rocks ("R") randomly on the grid
+    # place_random(grid, 'T', 3, avoid=avoid)
+    # place_random(grid, 'R', 3, avoid=avoid)
+
+    while True:
+            # REMOVE pass if you start here
+            pass
+            # TODO: Print the grid and the robot's current position
+            # print_grid(grid, robot.position())
+            # print(f"Robot (X) is at {robot.position()}")
+
+            # TODO: Ask the user for a move command (up/down/left/right or quit)
+            # cmd = input("Move (up/down/left/right) or 'quit': ")
+
+            # TODO: If the user types "quit", break the loop and end the game
+            # if cmd == 'quit':
+            #     print("Bye!")
+            #     break
+
+            # TODO: Convert command into (dx, dy) movement
+            # dx, dy = 0, 0
+            # if cmd == ...:
+            #     ...
+
+            # TODO: Update the robot's position (no collision checks yet!)
+            # nx, ny = robot.x + dx, robot.y + dy
+            # if ...:
+            #     robot.set_position(nx, ny)
+            # else:
+            #     print("Can't move outside the grid.")
+
+if __name__ == "__main__":
+    main()
